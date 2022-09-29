@@ -40,6 +40,7 @@ INSTALLED_APPS = [
     'rest_framework',
     'rest_framework.authtoken',
     "users",
+    "mails",
 ]
 
 AUTH_USER_MODEL = 'users.CustomUser'
