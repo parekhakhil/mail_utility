@@ -4,8 +4,11 @@
 Create credentials from google developer console and oauth concent via application dashboard
 
 ## Step 2
-Clone this repository, migrate the project and then create superuser
+Clone this repository, create virtual enviroment , migrate the project and then create superuser
 
+## Step 3
+Modify dependency
+Update pyparsing init file line 130 and remove trailing version
 ## Step 3
 Download the credentials.json file from application dashboard and include it in users app folder
 
